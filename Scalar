@@ -1,0 +1,22 @@
+use strict;
+use warnings;
+my $ac= "value";
+my $a = 10;
+my $pi = 3.1456;
+my $data = 6.02e23;
+my $animal = "cat";
+my $sign = "I love my $animal";
+my $cost = 'it cost $a';
+my $num1 = $data;
+my $ab = $a * $pi;
+print "$a \n";
+print "$pi \n";
+print "$data \n";
+print "$animal \n";
+print "$sign \n";
+print "$cost \n";
+print "$num1 \n";
+print "$ab \n";
+print $ab * $a;
+print "\n",$animal . $cost;
+
